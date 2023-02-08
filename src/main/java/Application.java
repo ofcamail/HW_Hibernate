@@ -9,7 +9,6 @@ public class Application {
         employeeDAO.updateEmployee(employee1);
 
         employeeDAO.getAllEmployee().forEach(System.out::println);
-
         employeeDAO.deleteEmployee(employeeDAO.getById(2));
 
 

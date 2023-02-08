@@ -8,7 +8,6 @@ import java.util.List;
 
 public class EmployeeDAOImpl implements EmployeeDAO {
 
-
     @Override
     public void add(Employee employee) {
         try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
