@@ -1,7 +1,6 @@
 package model;
 
 import java.util.Objects;
-
 public class City {
     private int cityId;
     private String cityName;

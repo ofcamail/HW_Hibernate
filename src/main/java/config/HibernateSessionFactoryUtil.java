@@ -11,7 +11,6 @@ public class HibernateSessionFactoryUtil {
 
     public HibernateSessionFactoryUtil() {
     }
-
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {

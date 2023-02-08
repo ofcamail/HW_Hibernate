@@ -2,7 +2,6 @@ package model;
 
 import javax.persistence.*;
 import java.util.Objects;
-
 @Entity
 @Table(name = "employee")
 public class Employee {
